@@ -3,6 +3,9 @@ exports.__esModule = true;
 exports.Rocket = void 0;
 var Rocket = /** @class */ (function () {
     function Rocket(name, totalCapacityKg) {
+        this.cargoItems = [];
+        //let arrayName: number[] = [10,9,8];
+        this.astronauts = [];
         this.name = name;
         this.totalCapacityKg = totalCapacityKg;
     }
